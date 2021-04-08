@@ -32,7 +32,7 @@ function DataBody({ users }) {
                                 {phone}
                             </td>
                             <td data-th="Email" className="align-middle">
-                                <a href={"mailto:" + email} target="_blank">
+                                <a href={"mailto:" + email} rel="noreferrer" target="_blank">
                                     {email}
                                 </a>
                             </td>
