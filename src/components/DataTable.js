@@ -1,6 +1,6 @@
 import React from "react";
 import DataBody from "./DataBody";
-//import "../styles/DataTable.css";
+import "../styles/DataTable.css";
 
 function DataTable({ headings, users, handleSort}) {
     return (
@@ -8,7 +8,7 @@ function DataTable({ headings, users, handleSort}) {
             <table
                 id="table"
                 className="table table-striped table-hover table-condensed">
-                <thead>
+                <thead class="head">
                     <tr>
                         {headings.map(({ name, width }) => {
                             return (
